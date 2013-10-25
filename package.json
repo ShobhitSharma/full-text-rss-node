@@ -1,0 +1,40 @@
+{
+  "name": "full-text-rss-node",
+  "version": "0.0.0",
+  "description": "A full text RSS web crawler",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShobhitSharma/full-text-rss-node.git"
+  },
+  "keywords": [
+    "crawler",
+    "full-text-rss"
+  ],
+  "author": "Shobhit Sharma <contact@shobhitsharma.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "cheerio": "~0.11.0",
+    "request": "~2.21.0",
+    "readability": "~0.1.0",
+    "underscore": "~1.4.4",
+    "redis": "~0.8.3",
+    "hiredis": "~0.1.15",
+    "async": "~0.2.8",
+    "readabilitySAX": "~1.6.1",
+    "htmlparser2": "~3.0.5",
+    "should": "~1.2.2",
+    "rss": "0.0.4",
+    "express": "~3.2.4"
+  },
+  "bugs": {
+    "url": "https://github.com/ShobhitSharma/full-text-rss-node/issues"
+  }
+}
